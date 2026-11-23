@@ -1,0 +1,16 @@
+# Build results and the downloaded reference project (fsr/build_fsr.py).
+# They contain the patched TTWVR.dll and Microsoft's d3dcompiler_47.dll,
+# which must not be redistributed.
+fsr/out/
+fsr/reference/
+
+# Never commit game or mod binaries
+*.dll
+*.exe
+
+# Python / logs / editor
+__pycache__/
+*.pyc
+*.log
+.vscode/
+.idea/
